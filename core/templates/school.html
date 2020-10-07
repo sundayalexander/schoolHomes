@@ -1,0 +1,21 @@
+{% load subdomainurls %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{school.username}}</title>
+</head>
+<body>
+    <h1>Hi, welcome {{ school.username | title }}!</h1>
+    <h5>School Details:</h5>
+    <ul>
+        <li>First Name: {{ school.first_name }}</li>
+        <li>Last Name: {{ school.last_name }}</li>
+        <li>username: {{ school.username }}</li>
+        <li>Date Joined: {{ school.date_joined }}</li>
+    </ul>
+
+    <a href="{% url 'update' school.username %}">Update profile</a>
+
+</body>
+</html>
