@@ -29,10 +29,6 @@ domain "example.com" in the django_site table in your database.
 ### Contributors ###
 
 * Sunday Alexander
-* Adenitire Ayomikun
-* Eunice Unix
-* Rajah Graphix
-* Alu Micheal
 
 ### Requirements: ###
 This project requirements can be found in the requirements.txt file
